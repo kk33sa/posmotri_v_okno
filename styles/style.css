@@ -38,10 +38,11 @@ ol {
 }
 
 .content {
+  justify-content: center;
   align-items: end;
-    flex-direction: row;
-    gap: 30px;
-    display: flex;
+  flex-direction: row;
+  gap: 30px;
+  display: flex;
 }
 
 .search-form {
