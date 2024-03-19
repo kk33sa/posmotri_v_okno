@@ -121,6 +121,8 @@ ol {
 }
 
 .content__card-link {
+  margin: 2px;
+  display: block;
   text-decoration: none;
 }
 
@@ -256,10 +258,6 @@ fieldset {
   background-color: #545050;
 }
 
-.content__card-link {
-  display: block;
-}
-
 .content__card-link:hover {
   text-decoration: underline 1px #fff;
   text-underline-offset: 5px;
@@ -274,7 +272,6 @@ fieldset {
 }
 
 .content__card-link:focus-visible {
-  padding: 2px;
   outline: 1px solid #fff;
 }
 
